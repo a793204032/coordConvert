@@ -1,8 +1,17 @@
 {
   "name": "wzlcoordconvert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "经纬度坐标转换库：支持 WGS84、GCJ-02（高德/腾讯）、BD-09（百度）互转，支持批量与单点输入",
   "main": "main.js",
+  "module": "main.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./main.js",
+      "require": "./main.cjs",
+      "default": "./main.js"
+    }
+  },
   "scripts": {
     "test": "node main.js"
   },
@@ -32,7 +41,7 @@
   "author": "wangzhenlin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/a793204032/coordConvert/issues"
+    "url": "https://github.com/a793204032/wzlcoordconvert/issues"
   },
-  "homepage": "https://github.com/a793204032/coordConvert#readme"
+  "homepage": "https://github.com/a793204032/wzlcoordconvert#readme"
 }
