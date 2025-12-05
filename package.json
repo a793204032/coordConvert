@@ -1,0 +1,38 @@
+{
+  "name": "coordconvert",
+  "version": "1.0.0",
+  "description": "经纬度坐标转换库：支持 WGS84、GCJ-02（高德/腾讯）、BD-09（百度）互转，支持批量与单点输入",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a793204032/coordConvert.git"
+  },
+  "keywords": [
+    "coord-convert",
+    "coordinates",
+    "coordinate-conversion",
+    "wgs84",
+    "gcj02",
+    "bd09",
+    "bd-09",
+    "baidu",
+    "gaode",
+    "amap",
+    "tencent",
+    "gps",
+    "geolocation",
+    "latlng",
+    "longitude-latitude",
+    "map-utils",
+    "china-coordinates"
+  ],
+  "author": "wangzhenlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a793204032/coordConvert/issues"
+  },
+  "homepage": "https://github.com/a793204032/coordConvert#readme"
+}
